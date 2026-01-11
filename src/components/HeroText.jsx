@@ -30,7 +30,7 @@ const HeroText = () => {
     </div>
     {/* Mobile View */}
         <div className="flex flex-col space-y-6 md:hidden">
-            <motion.p variants={variants} initial="hidden" animate="visible" transition={{delay: 1}}>HI, I'm Sushant</motion.p>
+            <motion.p className="text-3xl font-medium" variants={variants} initial="hidden" animate="visible" transition={{delay: 1}}>HI, I'm Sushant</motion.p>
             <div className="">
                 <motion.p className="text-5xl font-black text-neutral-300" variants={variants} initial="hidden" animate="visible" transition={{delay: 1.2}}>Building</motion.p>
                 <motion.div variants={variants} initial="hidden" animate="visible" transition={{delay: 1.5}}>
